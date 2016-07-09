@@ -1,6 +1,6 @@
 FROM centos:6.6
 
-yum install -y openswan which
+RUN yum install -y openswan which
 
 EXPOSE 500/udp 4500/udp
 
